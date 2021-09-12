@@ -18,12 +18,21 @@ type
     valorZ: TEdit;
     Label5: TLabel;
     raioBase: TEdit;
-    Button1: TButton;
+    btnCalcularUm: TButton;
     Label6: TLabel;
     alturaLata: TEdit;
     Label7: TLabel;
+    areaTotal: TEdit;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Edit1: TEdit;
     Edit2: TEdit;
-    procedure Button1Click(Sender: TObject);
+    btnCalcularDois: TButton;
+    Label12: TLabel;
+    custoTotal: TEdit;
+    procedure btnCalcularUmClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -37,12 +46,19 @@ implementation
 
 {$R *.dfm}
 
-procedure TForm1.Button1Click(Sender: TObject);
+procedure TForm1.btnCalcularUmClick(Sender: TObject);
 var
-  RaioDaBase : double;
+  pi, raio, altura, custo : Double;
 begin
-  raioBase.Text   := (Power(valorV/(2*3.14), 1/3)).ToString;
-  alturaLata.Text := (Power((4*valorV)/3.14)).ToString;
+  pi     := 3.14;
+  raio   := (StrToFloat(valorV.Text)/(2*pi));
+  altura := ((4*StrToFloat(valorV.Text))/pi);
+
+  raioBase.Text   := FormatFloat('0.00', (Power(raio, 1/3)));
+  alturaLata.Text := FormatFloat('0.00', (Power(altura, 1/3)));
+  areaTotal.Text  := FormatFloat('0.00', (2*pi*(Exp(2*ln(StrToFloat(raioBase.Text)))) +
+                     ((2*StrToFloat(valorV.Text))/StrToFloat(raioBase.Text))));
+  //custoTotal.Text := FormatFloat('0.00', );
 end;
 
 end.

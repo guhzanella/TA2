@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/09/11 16:45:29.511,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/09/11 16:53:05.481,C:\Users\Usuario\Downloads\Projeto TA2\ta2.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/09/11 16:53:05.481,C:\Users\Usuario\Downloads\Projeto TA2\ta2.dfm=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021/09/11 21:07:30.021,C:\Users\Usuario\Downloads\Projeto TA2\t2.dproj=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2021/09/11 16:45:29.000.511,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/09/11 16:53:05.000.481,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Usuario\Downloads\Projeto TA2\ta2.pas</Transaction>
+    <Transaction>2021/09/11 16:53:05.000.481,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Usuario\Downloads\Projeto TA2\ta2.dfm</Transaction>
+    <Transaction>2021/09/11 21:07:30.000.021,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Usuario\Downloads\Projeto TA2\t2.dproj</Transaction>
   </Transactions>
 </BorlandProject>
